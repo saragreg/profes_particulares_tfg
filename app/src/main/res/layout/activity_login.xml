@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE4B0"
+    tools:context=".Login">
+
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="246dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/contra"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="317dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/impact"
+        android:gravity="center"
+        android:text="@string/inicio_sesion"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="193dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/aceptar"
+        android:textColor="#EFE4B0"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="onclick_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/error" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="244dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/usuario"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="253dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview1" />
+
+    <EditText
+        android:id="@+id/contra"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview2" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="299dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="28dp"
+        android:textColor="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contra" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

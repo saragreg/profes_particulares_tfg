@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TFG_profes</string>
+    <string name="titulo_inicio">Profesores Particulares</string>
+    <string name="registro">Registro</string>
+    <string name="inicio_sesion">Iniciar Sesión</string>
+    <string name="usuario">Usuario</string>
+    <string name="contra">Contraseña</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="error">Usuario o contraseña incorrectas</string>
+    <string name="nombre">Nombre</string>
+    <string name="tel">Teléfono</string>
+    <string name="galeria">Galeria</string>
+    <string name="camara">Cámara</string>
+    <string name="perfil">Foto de perfil del día</string>
+    <string name="comenzar">comenzar</string>
+    <string name="profes">PROFES</string>
+    <string name="menu">Menú</string>
+    <string name="perfilp">PERFIL DEL USUARIO</string>
+</resources>
